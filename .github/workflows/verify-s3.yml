@@ -54,4 +54,4 @@ jobs:
       - name: Ensure the scan meets our results threshold
         uses: mitre/saf_action@v1
         with:
-          command_string: 'validate:threshold -i results.json -F threshold.yml'
+          command_string: 'validate:threshold -i results.json -T threshold.yml'
